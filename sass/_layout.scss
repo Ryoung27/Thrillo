@@ -1,0 +1,25 @@
+.container{
+    max-width: 120rem;
+    margin: 8rem auto;
+    background-color: purple;
+    box-shadow: var(--shadow-dark);
+
+    min-height: 50rem;
+}
+
+.header{
+
+    background-color: green;
+}
+
+.content{
+    background-color: blue;
+}
+
+.sidebar{
+    background-color: red;
+}
+
+.main-view{
+    background-color: white;
+}

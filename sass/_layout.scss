@@ -1,25 +1,36 @@
 .container{
     max-width: 120rem;
     margin: 8rem auto;
-    background-color: purple;
+    background-color: #FFF;
     box-shadow: var(--shadow-dark);
 
     min-height: 50rem;
 }
 
 .header{
+    font-size: 1.4rem;
 
-    background-color: green;
+    height: 7rem;
+    border-bottom: var(--color-grey-light-2);
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #fff;
 }
 
 .content{
-    background-color: blue;
+    display: flex;
 }
 
 .sidebar{
-    background-color: red;
+    background-color: var(--color-grey-dark-1);
+
+    flex: 0 0 18%;
 }
 
 .main-view{
-    background-color: white;
+    background-color: #fff;
+    background-color: orangered;
+
+    flex: 1;
 }
